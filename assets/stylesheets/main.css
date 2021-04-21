@@ -162,6 +162,7 @@ h1 {
     color: #a9b2b9;
     font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
   }
 
   strong {
@@ -184,6 +185,11 @@ a:hover {
 
 a {
   color: #648880;
+  text-decoration: none;
+}
+
+p a {
+  border-bottom: 1px solid #dfe2e5;
 }
 
  /*
@@ -207,6 +213,8 @@ a {
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 
  /*
