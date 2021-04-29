@@ -129,6 +129,19 @@ body {
  /*
 
   =========================================================
+  Rows
+  =========================================================
+*/
+
+.row {
+  background: #fff;
+  min-width: 960px;
+  padding: 66px 0 44px 0;
+}
+
+ /*
+
+  =========================================================
   Typography
   =========================================================
 */
@@ -267,6 +280,8 @@ p a {
   =========================================================
 */
 
+/*general button style*/
+
 .btn {
   border-radius: 5px;
   color: #fff;
@@ -277,6 +292,8 @@ p a {
   margin: 0px;
   text-transform: uppercase;
 }
+
+/*specifically for register button*/
 
 .btn-alt {
   border: 1px solid #dfe2e5;
